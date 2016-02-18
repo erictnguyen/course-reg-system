@@ -77,26 +77,8 @@ public class Professor extends Person implements PersonManipulation {
 		this.password = password;
 	}
 
-//	@Override
-//	public void create() {
-//		Scanner input = new Scanner(System.in);
-//		System.out.println("Enter professor's first and last name: ");
-//		setName(input.nextLine());
-//		System.out.println("Enter SSN: ");
-//		setSSN(input.next());
-//		System.out.println("Enter current address: ");
-//		setAddress(input.nextLine());
-//		System.out.println("Enter office location: ");
-//		setOffice(input.next());
-//		System.out.println("Enter phone number (in 408-123-0000 format): ");
-//		setPhone(input.next());
-//	}
-
 	@Override
 	public void print() {
 		System.out.println(name + " " + id);
-//				+ "\nAddress: " + address
-//				+ "\nOffice: " + office
-//				+ "\nPhone: " + phone);
 	}
 }

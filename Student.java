@@ -88,20 +88,8 @@ public class Student extends Person implements PersonManipulation {
 		this.password = password;
 	}
 
-//	@Override
-//	public void create(String) {
-//		Scanner input = new Scanner(System.in);
-//		System.out.println("Enter student's first and last name: ");
-//		setName(input.nextLine());
-//	}
-
 	@Override
 	public void print() {
 		System.out.println(name + " " + id);
-//				+ "\nMajor: " + major
-//				+ "\nDOB: " + dob
-//				+ "\nAddress: " + address 
-//				+ "\nPhone: " + phone);
 	}
-	
 }

@@ -187,6 +187,4 @@ public class CourseDirectory {
 		}
 		return false;
 	}
-	
-	
 }
